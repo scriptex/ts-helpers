@@ -1,4 +1,4 @@
-export const isDefined = <T>(obj: T, key: string): boolean => {
+export const isDefined = <T extends Record<string, any>>(obj: T, key: string): boolean => {
 	const props: string[] = key.split('.');
 
 	if (!obj) {

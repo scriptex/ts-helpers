@@ -1,13 +1,13 @@
 import { getValueFromKey } from './get-value-from-key';
 
-export const toIndexedList = <T>(source: T[], indexProp = 'id'): Record<string, T> => {
-	return source.reduce((acc: Record<string, T>, elem: T) => {
-		const prop = getValueFromKey(elem, indexProp);
+export const toIndexedList = <T>(source: T[], indexProp: string): Record<string, T> => {
+	return source.reduce((result: Record<string, T>, elem: T) => {
+		const prop: any = getValueFromKey(elem, indexProp);
 
 		if (prop) {
-			acc[prop] = elem;
+			result[prop] = elem;
 		}
 
-		return acc;
+		return result;
 	}, {});
 };

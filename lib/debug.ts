@@ -1,6 +1,9 @@
-export const debug = (condition: boolean): Record<string, (...args: unknown[]) => void> =>
-	Object.keys(console).reduce((result: Record<string, (...args: unknown[]) => void>, method: string) => {
-		result[method] = condition ? () => undefined : console[method];
+export type VoidFunction = (...args: unknown[]) => void;
+export type VoidFunctionList = Record<string, VoidFunction>;
+
+export const debug = (condition: boolean): VoidFunctionList =>
+	Object.keys(console).reduce((result: VoidFunctionList, method: string) => {
+		result[method] = condition ? () => undefined : (console as any)[method];
 
 		return result;
 	}, {});

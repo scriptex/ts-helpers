@@ -1,4 +1,4 @@
-export const deepFreeze = <T>(obj: T): T => {
+export const deepFreeze = <T extends Record<string, any>>(obj: T): T => {
 	const propNames: string[] = Object.getOwnPropertyNames(obj);
 
 	for (const name of propNames) {

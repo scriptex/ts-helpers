@@ -1,6 +1,6 @@
-export const toJSON = <T>(dataAsString: string): T | void => {
+export const toJSON = <T>(data: string): T | void => {
 	try {
-		return JSON.parse(dataAsString);
+		return JSON.parse(data);
 	} catch (err) {
 		return;
 	}

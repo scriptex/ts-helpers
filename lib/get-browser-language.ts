@@ -1,6 +1,6 @@
 export const getBrowserLanguage = (): string | null => {
 	const nav: Navigator = window.navigator;
-	const browserLanguagePropertyKeys: string[] = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'];
+	const keys: string[] = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'];
 
 	let language: string | null = null;
 
@@ -15,8 +15,8 @@ export const getBrowserLanguage = (): string | null => {
 	}
 
 	if (!language) {
-		for (const langProps of browserLanguagePropertyKeys) {
-			language = nav[langProps];
+		for (const key of keys) {
+			language = (nav as any)[key];
 
 			if (language && language.length) {
 				return language;
