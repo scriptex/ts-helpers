@@ -1,7 +1,7 @@
 /**
  * Check if a key in an object is defined
  * @param {Object} obj The object to search in
- * @param {String} key The key to search form
+ * @param {String} key The key to search for
  */
 export const isDefined = <T extends Record<string, any>>(obj: T, key: string): boolean => {
 	const props: string[] = key.split('.');

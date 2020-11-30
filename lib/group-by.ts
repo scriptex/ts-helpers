@@ -1,7 +1,7 @@
 /**
  * Group an array of objects by a property in the objects
- * @param list Array of objects
- * @param getKey Function which accepts an object and returns a property from it
+ * @param {Array} list Array of objects
+ * @param {Function} getKey Function which accepts an object and returns a property from it
  */
 export const groupBy = <T, P>(list: T[], getKey: (item: T) => P): Array<Record<string, T[]>> => {
 	const map = new Map();
