@@ -49,3 +49,4 @@ webpack.config.js
 # Project specific
 .github
 .vercel
+!docs

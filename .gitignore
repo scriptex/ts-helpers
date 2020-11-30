@@ -18,6 +18,6 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-dist
-
 .vercel
+dist
+docs
