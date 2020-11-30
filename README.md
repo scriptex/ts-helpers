@@ -4,7 +4,11 @@
 
 ## About
 
-This is still a work in progress...
+This library contains useful TypeScript utility and helpers functions.
+
+More functions will be added as this is a work in progress (WIP).
+
+To see the current collection, details about installation and usage, please see [the docs](https://ts-helpers.atanas.info/).
 
 ## Support this project
 
