@@ -1,5 +1,12 @@
 import { isDefined } from './is-defined';
 
+/**
+ * Get the value of an object key.
+ * Supports deep nesting of object keys.
+ * Uses `.` as separator
+ * @param {Object} obj The object to searh in
+ * @param {String} key The key to search for
+ */
 export const getValueFromKey = <T>(obj: T, key: string): void | unknown[] => {
 	if (!isDefined(obj, key)) {
 		return undefined;

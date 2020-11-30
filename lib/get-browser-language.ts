@@ -1,3 +1,6 @@
+/**
+ * Get the selected language of your browser
+ */
 export const getBrowserLanguage = (): string | null => {
 	const nav: Navigator = window.navigator;
 	const keys: string[] = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'];
