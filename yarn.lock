@@ -142,10 +142,10 @@ lunr@^2.3.9:
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-2.3.9.tgz#18b123142832337dd6e964df1a5a7707b25d35e1"
   integrity sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==
 
-marked@^1.2.9:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
-  integrity sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
+marked@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.0.tgz#9662bbcb77ebbded0662a7be66ff929a8611cee5"
+  integrity sha512-NqRSh2+LlN2NInpqTQnS614Y/3NkVMFFU6sJlRFEpxJ/LHuK/qJECH7/fXZjk4VZstPW/Pevjil/VtSONsLc7Q==
 
 minimatch@^3.0.0, minimatch@^3.0.4:
   version "3.0.4"
@@ -245,17 +245,17 @@ typedoc-plugin-param-names@2.0.0:
   resolved "https://registry.yarnpkg.com/typedoc-plugin-param-names/-/typedoc-plugin-param-names-2.0.0.tgz#9b116445d4fcb64208aa1e24935be4691344c5a6"
   integrity sha512-Uf9otc8n9U8J9R2edtNowehLWK4oBD17ckVX/c0uCky254k2vrvZ5CvpRBHwLm+EpMRK+IVzYbiLxNSG4JXRsA==
 
-typedoc@0.20.23:
-  version "0.20.23"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.20.23.tgz#963fcb53b4e0f28c50b2e155721766cf53196105"
-  integrity sha512-RBXuM0MJ2V/7eGg4YrDEmV1bn/ypa3Wx6AO1B0mUBHEQJaOIKEEnNI0Su75J6q7dkB5ksZvGNgsGjvfWL8Myjg==
+typedoc@0.20.24:
+  version "0.20.24"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.20.24.tgz#9dd1cb32e44823a5ebbeb54c9b84af85286c5941"
+  integrity sha512-TadOYtcw8agrk7WTZlXUcct4jLZZcGcYe3xbmARkI+rBpXI6Mw+0P8oUo13+9oFreQvK5zZgMem4YEi7lCXLIw==
   dependencies:
     colors "^1.4.0"
     fs-extra "^9.1.0"
     handlebars "^4.7.6"
     lodash "^4.17.20"
     lunr "^2.3.9"
-    marked "^1.2.9"
+    marked "^2.0.0"
     minimatch "^3.0.0"
     progress "^2.0.3"
     shelljs "^0.8.4"
