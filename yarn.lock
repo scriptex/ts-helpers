@@ -245,10 +245,10 @@ typedoc-plugin-param-names@2.0.0:
   resolved "https://registry.yarnpkg.com/typedoc-plugin-param-names/-/typedoc-plugin-param-names-2.0.0.tgz#9b116445d4fcb64208aa1e24935be4691344c5a6"
   integrity sha512-Uf9otc8n9U8J9R2edtNowehLWK4oBD17ckVX/c0uCky254k2vrvZ5CvpRBHwLm+EpMRK+IVzYbiLxNSG4JXRsA==
 
-typedoc@0.20.29:
-  version "0.20.29"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.20.29.tgz#696952beb78c37b3c132e86754d2cf0549189177"
-  integrity sha512-IyzrbtwNAXtylUJn41FbopQsNSQ1jcM6lUhDL/REOFo31G3Q9fsniZUQP+tIcTX5JaCntRdw3PTMZTQPV52low==
+typedoc@0.20.30:
+  version "0.20.30"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.20.30.tgz#a7e0e3902c08df9b3f9d66da0cc603eed716fad3"
+  integrity sha512-A4L6JDShPFwZDt9qp7FBsEpW7C6rA5fRv6ywgBuxGxZnT2wuF5afbWzmrwqHR3Xw38V1H2L4v/VJ0S/llBwV6Q==
   dependencies:
     colors "^1.4.0"
     fs-extra "^9.1.0"
