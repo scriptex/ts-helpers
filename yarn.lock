@@ -158,10 +158,10 @@ typedoc-plugin-param-names@2.0.0:
   resolved "https://registry.yarnpkg.com/typedoc-plugin-param-names/-/typedoc-plugin-param-names-2.0.0.tgz#9b116445d4fcb64208aa1e24935be4691344c5a6"
   integrity sha512-Uf9otc8n9U8J9R2edtNowehLWK4oBD17ckVX/c0uCky254k2vrvZ5CvpRBHwLm+EpMRK+IVzYbiLxNSG4JXRsA==
 
-typedoc@0.21.1:
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.21.1.tgz#ce376b43d1bfba416fc38ece4108e770c39ce0ad"
-  integrity sha512-mt7LO2wNiSmTkbKQwSNfXsxEX+zDOZ57bICpbYbnOf2WH5gh3nIhQxYhMNAeLBBLHCfqt9XQidhrrfHfUVq02A==
+typedoc@0.21.2:
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.21.2.tgz#cf5094314d3d63e95a8ef052ceff06a6cafd509d"
+  integrity sha512-SR1ByJB3USg+jxoxwzMRP07g/0f/cQUE5t7gOh1iTUyjTPyJohu9YSKRlK+MSXXqlhIq+m0jkEHEG5HoY7/Adg==
   dependencies:
     glob "^7.1.7"
     handlebars "^4.7.7"
