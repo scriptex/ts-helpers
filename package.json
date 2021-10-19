@@ -8,7 +8,7 @@
 		"watch": "yarn tsc -w",
 		"build": "yarn clean && yarn tsc",
 		"test": "echo WIP",
-		"docs": "typedoc --out docs --theme node_modules/eledoc/bin/default/ --plugin typedoc-plugin-param-names lib",
+		"docs": "typedoc --out docs --theme default --plugin typedoc-plugin-param-names lib",
 		"deploy": "yarn build && yarn docs"
 	},
 	"keywords": [
@@ -28,8 +28,8 @@
 	"devDependencies": {
 		"eledoc": "0.2.1",
 		"tslib": "2.3.1",
-		"typedoc": "0.21.9",
-		"typedoc-plugin-param-names": "2.0.0",
+		"typedoc": "0.22.6",
+		"typedoc-plugin-param-names": "3.1.0",
 		"typescript": "4.4.4"
 	},
 	"main": "dist/index.js",
