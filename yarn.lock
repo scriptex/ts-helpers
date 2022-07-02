@@ -55,10 +55,10 @@ tslib@2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
-typedoc@0.23.3:
-  version "0.23.3"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.3.tgz#52a3e2395b61ce050dbf28695954ed66d8455f7e"
-  integrity sha512-klFzfV8hV1Vu5BE95BRY5lN1a/GmuMRPebhW7yeY3JERcu1O6X3HZE4pahkNHmmVpe77/O2lRtNVFnmb5+47ZA==
+typedoc@0.23.4:
+  version "0.23.4"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.4.tgz#58a93033181d907baea616115190da3b5273416e"
+  integrity sha512-KvDc3aO7eSrPhPJ36zPfjKNdOMSQFeUOMOMZdG7jACQePJny+qEbufINCac/wAH8nMaCE3TRa5jcDmouRy58nA==
   dependencies:
     lunr "^2.3.9"
     marked "^4.0.16"
