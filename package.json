@@ -28,8 +28,8 @@
 	"devDependencies": {
 		"eledoc": "0.2.1",
 		"tslib": "2.4.0",
-		"typedoc": "0.23.10",
-		"typescript": "4.7.4"
+		"typedoc": "0.23.11",
+		"typescript": "4.8.2"
 	},
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
