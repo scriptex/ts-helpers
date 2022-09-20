@@ -7,7 +7,7 @@ import { isDefined } from './is-defined';
  * @param {Object} obj The object to search in
  * @param {String} key The key to search for
  */
-export const getValueFromKey = <T extends Record<string, unknown>>(obj: T, key: string): void | unknown[] => {
+export const getValueFromKey = <T extends Record<string, unknown>>(obj: T, key: string): void | unknown => {
 	if (!isDefined(obj, key)) {
 		return undefined;
 	}

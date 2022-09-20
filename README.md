@@ -1,6 +1,29 @@
+[![Travis CI](https://travis-ci.com/scriptex/ts-helpers.svg?branch=master)](https://travis-ci.com/scriptex/ts-helpers)
+[![Github Build](https://github.com/scriptex/ts-helpers/workflows/Build/badge.svg)](https://github.com/scriptex/ts-helpers/actions?query=workflow%3ABuild)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/34d3d75710534dc6a38c3584a1dcd068)](https://www.codacy.com/gh/scriptex/ts-helpers/dashboard?utm_source=github.com&utm_medium=referral&utm_content=scriptex/ts-helpers&utm_campaign=Badge_Grade)
+[![Codebeat Badge](https://codebeat.co/badges/d765a4c8-2c0e-44f2-89c3-fa364fdc14e6)](https://codebeat.co/projects/github-com-scriptex-ts-helpers-master)
+[![CodeFactor Badge](https://www.codefactor.io/repository/github/scriptex/ts-helpers/badge)](https://www.codefactor.io/repository/github/scriptex/ts-helpers)
+[![DeepScan grade](https://deepscan.io/api/teams/3574/projects/5257/branches/40799/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3574&pid=5257&bid=40799)
+[![Analytics](https://ga-beacon-361907.ew.r.appspot.com/UA-83446952-1/github.com/scriptex/ts-helpers/README.md?pixel)](https://github.com/scriptex/ts-helpers/)
+
 # TypeScript Helpers
 
 > A growing collection of TypeScript tools, utilities and helpers
+
+## Visitor stats
+
+![GitHub stars](https://img.shields.io/github/stars/scriptex/ts-helpers?style=social)
+![GitHub forks](https://img.shields.io/github/forks/scriptex/ts-helpers?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/scriptex/ts-helpers?style=social)
+![GitHub followers](https://img.shields.io/github/followers/scriptex?style=social)
+
+## Code stats
+
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/scriptex/ts-helpers)
+![GitHub repo size](https://img.shields.io/github/repo-size/scriptex/ts-helpers?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/scriptex/ts-helpers?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/scriptex/ts-helpers?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/scriptex/ts-helpers?style=plastic)
 
 ## About
 
@@ -96,7 +119,6 @@ Support and sponsor my work:
 <a href="https://liberapay.com/scriptex/donate" title="Donate on Liberapay">
 	<img src="https://img.shields.io/liberapay/receives/scriptex?label=Donate%20on%20Liberapay&logo=liberapay" />
 </a>
-
 <a href="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/scriptex/master/badges/bitcoin.json" title="Donate Bitcoin">
 	<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/scriptex/master/badges/bitcoin.json" />
 </a>

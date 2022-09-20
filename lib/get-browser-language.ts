@@ -19,7 +19,7 @@ export const getBrowserLanguage = (): string | null => {
 
 	if (!language) {
 		for (const key of keys) {
-			language = (nav as any)[key];
+			language = (nav as unknown as Record<string, string>)[key];
 
 			if (language && language.length) {
 				return language;

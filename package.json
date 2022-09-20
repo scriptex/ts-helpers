@@ -2,6 +2,27 @@
 	"name": "ts-helpers",
 	"version": "1.0.0",
 	"description": "A growing collection of TypeScript tools, utilities and helpers",
+	"keywords": [
+		"Helper functions",
+		"Utility functions",
+		"TypeScript tools",
+		"TypeScript helpers",
+		"TypeScript utilities"
+	],
+	"homepage": "https://ts-helpers.atanas.info",
+	"bugs": {
+		"url": "https://github.com/scriptex/ts-helpers/issues",
+		"email": "hi@atanas.info"
+	},
+	"license": "MIT",
+	"author": "Atanas Atanasov <hi@atanas.info> (https://atanas.info)",
+	"funding": "https://github.com/sponsors/scriptex",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "github:scriptex/ts-helpers"
+	},
 	"scripts": {
 		"clean": "rm -rf dist",
 		"tsc": "tsc",
@@ -11,27 +32,11 @@
 		"docs": "typedoc --out docs --theme default lib",
 		"deploy": "yarn build && yarn docs"
 	},
-	"keywords": [
-		"TypeScript",
-		"helpers",
-		"tools",
-		"utilities"
-	],
-	"author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
-	"repository": "https://github.com/scriptex/ts-helpers",
-	"bugs": {
-		"url": "https://github.com/scriptex/ts-helpers/issues",
-		"email": "scriptex.bg@gmail.com"
-	},
-	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
 		"eledoc": "0.2.1",
 		"tslib": "2.4.0",
 		"typedoc": "0.23.15",
 		"typescript": "4.8.3"
-	},
-	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
-	"typings": "dist/index.d.ts"
+	}
 }
