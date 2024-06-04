@@ -35,7 +35,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"eledoc": "0.2.1",
-		"tslib": "2.6.2",
+		"tslib": "2.6.3",
 		"typedoc": "0.25.13",
 		"typescript": "5.4.5"
 	}
