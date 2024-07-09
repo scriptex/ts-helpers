@@ -37,6 +37,6 @@
 		"eledoc": "0.2.1",
 		"tslib": "2.6.3",
 		"typedoc": "0.26.3",
-		"typescript": "5.5.2"
+		"typescript": "5.5.3"
 	}
 }
