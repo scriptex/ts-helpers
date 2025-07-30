@@ -133,10 +133,10 @@ tslib@2.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
-typedoc@0.28.7:
-  version "0.28.7"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.28.7.tgz#30453a9517b49e53f06e08954ef3dd106381447d"
-  integrity sha512-lpz0Oxl6aidFkmS90VQDQjk/Qf2iw0IUvFqirdONBdj7jPSN9mGXhy66BcGNDxx5ZMyKKiBVAREvPEzT6Uxipw==
+typedoc@0.28.8:
+  version "0.28.8"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.28.8.tgz#3f2de31e8b2233bab12fb40d25ff861a4fac0962"
+  integrity sha512-16GfLopc8icHfdvqZDqdGBoS2AieIRP2rpf9mU+MgN+gGLyEQvAO0QgOa6NJ5QNmQi0LFrDY9in4F2fUNKgJKA==
   dependencies:
     "@gerrit0/mini-shiki" "^3.7.0"
     lunr "^2.3.9"
